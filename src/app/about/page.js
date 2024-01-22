@@ -34,8 +34,20 @@ export const metadata = {
     description: "The React Framework for the Web",
     url: "https://metatags-nextjs.vercel.app/about",
     type: "website",
-    image:
-      "https://www.kasandbox.org/programming-images/avatars/old-spice-man.png",
     siteName: "Next.js",
+    images: [
+      {
+        url: "https://www.kasandbox.org/programming-images/avatars/old-spice-man.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://www.kasandbox.org/programming-images/avatars/old-spice-man.png",
+        width: 1800,
+        height: 1600,
+        alt: "My custom alt",
+      },
+    ],
+    locale: "en_US",
   },
 };
