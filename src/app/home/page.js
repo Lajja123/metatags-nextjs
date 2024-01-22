@@ -11,7 +11,10 @@ function Homepage() {
           property="og:image"
           content="https://www.kasandbox.org/programming-images/avatars/old-spice-man.png"
         />
-        <meta property="og:url" content="http://localhost:3000/home" />
+        <meta
+          property="og:url"
+          content="https://metatags-nextjs.vercel.app/home"
+        />
         <meta property="og:type" content="website" />
       </Head>
       <div>Home page</div>

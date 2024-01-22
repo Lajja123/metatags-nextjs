@@ -11,7 +11,10 @@ function Aboutpage() {
           property="og:image"
           content="https://www.kasandbox.org/programming-images/avatars/old-spice-man.png"
         />
-        <meta property="og:url" content="http://localhost:3000/home" />
+        <meta
+          property="og:url"
+          content="https://metatags-nextjs.vercel.app/about"
+        />
         <meta property="og:type" content="website" />
       </Head>
       <div>About page</div>
